@@ -6,14 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Flutter 踩坑 | Hexo</title>
+  <title>Flutter 踩坑 | 默翁个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="最近在学习 Flutter,  遇到一些奇奇葩葩的问题，各种买家秀与卖家秀令人懵逼，明明别人的代码也是这样写~ 一、Android 原生引入 flutter 的问题其实这个引入步骤比较简单  创建一个 flutter module 1flutter create -t module flutter_module  配置 android 项目 文件12   setBinding(new Bindi">
 <meta name="keywords" content="flutter,android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Flutter 踩坑">
 <meta property="og:url" content="http://yoursite.com/2019/09/20/踩坑/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="默翁个人博客">
 <meta property="og:description" content="最近在学习 Flutter,  遇到一些奇奇葩葩的问题，各种买家秀与卖家秀令人懵逼，明明别人的代码也是这样写~ 一、Android 原生引入 flutter 的问题其实这个引入步骤比较简单  创建一个 flutter module 1flutter create -t module flutter_module  配置 android 项目 文件12   setBinding(new Bindi">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://miro.medium.com/max/563/0*OZM3usTilxtCsKGG.jpg">
@@ -24,7 +24,7 @@
 <meta name="twitter:description" content="最近在学习 Flutter,  遇到一些奇奇葩葩的问题，各种买家秀与卖家秀令人懵逼，明明别人的代码也是这样写~ 一、Android 原生引入 flutter 的问题其实这个引入步骤比较简单  创建一个 flutter module 1flutter create -t module flutter_module  配置 android 项目 文件12   setBinding(new Bindi">
 <meta name="twitter:image" content="https://miro.medium.com/max/563/0*OZM3usTilxtCsKGG.jpg">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="默翁个人博客" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -51,7 +51,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/me.jpeg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">默翁</a></h1>
@@ -65,7 +65,7 @@
 	        
 				<li><a href="/categories/tech">前端</a></li>
 	        
-				<li><a href="/categories/hexo">随笔</a></li>
+				<li><a href="/categories/casual">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -73,10 +73,6 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -111,7 +107,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/me.jpeg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">默翁</h1>
@@ -149,7 +145,7 @@
 		        
 					<li style="width: 33.333333333333336%"><a href="/categories/tech">前端</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/categories/hexo">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/categories/casual">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -212,27 +208,6 @@
       
 
       
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
     </div>
     <div class="article-info article-info-index">
       
@@ -254,14 +229,7 @@
 
       
 	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/tech//" class="article-tag-list-link color5">tech</a>
-        		</li>
-      		
-		</ul>
+		
 	</div>
 
 
@@ -450,25 +418,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -543,38 +503,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
-    
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
     
 
     
